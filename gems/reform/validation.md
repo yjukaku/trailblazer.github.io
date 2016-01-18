@@ -24,7 +24,7 @@ The purest form of defining validations with this backend is by using a [validat
     require "reform/form/dry"
 
     class AlbumForm < Reform::Form
-      include Reform::Form::Dry
+      feature Reform::Form::Dry
 
       property :title
 
@@ -80,7 +80,7 @@ In other frameworks, you need to include `Reform::Form::ActiveModel::Validations
     require "reform/form/active_model/validations"
 
     Reform::Form.class_eval do
-      include Reform::Form::ActiveModel::Validations
+      feature Reform::Form::ActiveModel::Validations
     end
 
 ## Validation Group
