@@ -2,20 +2,21 @@ footer {
   background: $tuatara;
   min-height: 150px;
   padding: 3em 0;
-  color: lighten($tuatara, 22);
+  color: lighten($tuatara, 32);
   a {
-    color: lighten($tuatara, 22);
+    color: lighten($tuatara, 32);
     &:hover {
-      color: lighten($tuatara, 32);
+      color: lighten($tuatara, 42);
     }
   }
   h4 {
-    color: lighten($tuatara, 35);
+    color: lighten($tuatara, 46);
     margin-bottom: 1em;
   }
   .copyright {
     font-size: rem-calc(12);
     margin-bottom: 0;
+    color: lighten($tuatara, 22);
   }
   .logo-box {
     @media #{$small-only} {
