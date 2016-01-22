@@ -49,3 +49,12 @@ imageurl: "http://trailblazer.to/images/3dbuch-freigestellt.png"
     </div>
   </div>
 </section>
+
+<!-- Testimonials -->
+<section class="sub-section testimonials">
+  <div class="row">
+    <div class="columns">
+      {% include testimonials.html %}
+    </div>
+  </div>
+</section>
