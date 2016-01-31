@@ -12,7 +12,7 @@ Hello, and Hi from the Trailblazer team!
 
 Thank you for your interest in the Trailblazer project. We hope your new year 2016 started off great and you're already working on fantastic new software!
 
-The Trailblazer newsletter is going to be a monthly buzz that telling you what has changed in the Trailblazer gems, Cells, Reform, Roar and Representable, and Formular, what new features were released and what cool upcoming stuff to expect.
+The Trailblazer newsletter is going to be a monthly buzz telling you what has changed in the Trailblazer gems, Cells, Reform, Roar and Representable, and Formular, what new features have been released and cool upcoming stuff to expect.
 
 This is newsletter no. 1, the first ever, and I'm excited to tell you what has happened the last few months!
 
