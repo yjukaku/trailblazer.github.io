@@ -1,7 +1,8 @@
 ---
 layout: newsletter
+description: "January 2016 newsletter talks about Formular (new form builder for Ruby), dry-validation in Reform, Sinatra/TRB, cool but unknown features in Reform and upcoming talks in Europe and Australia."
 
-title: "TRB Newsletter: January 2016"
+title: "Newsletter January 2016"
 ---
 
 # January 2016
