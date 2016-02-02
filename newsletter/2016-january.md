@@ -127,7 +127,7 @@ class Post::Form < Reform::Form
 
 As most of Reform is implemented via Disposable's Twin, you can find the logic that gives you the described _options semantic_ [in the Disposable gem](https://github.com/apotonick/disposable/blob/3270bd16b0105cc48eb5c414f94b0003e04e78ac/lib/disposable/twin/setup.rb#L27).
 
-### Accessing The Parent Form
+### Accessing the Parent Form
 
 Another addition to Disposable is the new `Parent` module, which allows accessing the parent form in a Reform instance. This is necessary when you have nested forms that need dependencies from an upper form, for instance a nested comment validation requiring the parent post's ID.
 

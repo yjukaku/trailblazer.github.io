@@ -81,7 +81,9 @@ As a matter of course, you may call other rule queries on the internal policy ob
 
 ## Guard
 
-Instead of using policies, you can also use a simple guard. A guard is like an inline policy that doesn't require you to define a policy class. It is run in `#setup!`, too, like a real policy, but isn't accessable in the operation after that.
+Instead of using policies, you can also use a simple guard.
+
+A guard is like an inline policy that doesn't require you to define a policy class. It is run in `#setup!`, too, like a real policy, but isn't accessable in the operation after that.
 
 
     class Thing::Create < Trailblazer::Operation
@@ -91,6 +93,25 @@ Instead of using policies, you can also use a simple guard. A guard is like an i
         params[:current_user].present? # true when present.
       end
 
+
+If you prefer a separate class as your guard, you can provide a `Callable` object.
+
+    class Thing::Authorization
+      include Uber::Callable # marks instance as callable.
+
+      def call(operation, params)
+        params[:current_user].present?
+      end
+    end
+
+Pass the guard *instance* to `Operation::policy` to register it.
+
+    class Thing::Create < Trailblazer::Operation
+      include Policy::Guard
+      policy Authorization.new
+
+
+The same works with `Proc`, which will receive `params` only but is executed in operation context (subject to change).
 
 Note that you can't mix `Policy` and guards in one class.
 
