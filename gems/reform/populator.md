@@ -48,6 +48,17 @@ Reform per design makes no assumptions about how to create nested models. You ha
 
 You need to configure a populator to engage Reform in the proper deserialization.
 
+### Populator Invocation
+
+Regardless of the populator type, keep in mind that a populator is only called if an incoming fragment for that property is present.
+
+    form.validate({songs: [{name: "Midnight Rendezvous"}]}) # songs present.
+
+Running with our example, the following validation will _not_ trigger any populator.
+
+    form.validate({})          # empty.
+    form.validate({songs: []}) # not empty, but no items!
+
 ## Populate_if_empty
 
 To let Reform create a new model wrapped by a nested form for you use `:populate_if_empty`. That's the easiest form of population.
@@ -102,7 +113,7 @@ The result of the block will be automatically assigned to the form for you. Note
 
 While the `:populate_if_empty` option is only called when no matching form was found for the input, the `:populator` option is always invoked and gives you maximum flexibility for population. They're exclusive, you can only use one of the two.
 
-Note that populators won't be invoked if there's no incoming fragment(s) for the populator's property.
+Aain, note that populators won't be invoked if there's no incoming fragment(s) for the populator's property.
 
 ## Populator: Collections
 
