@@ -7,7 +7,7 @@ title: "Reform Upgrading Guide"
 
 We try to make upgrading as smooth as possible. Here's the generic documentation, but don't hesitate to ask for [help on Gitter](https://gitter.im/trailblazer/chat).
 
-## 2.0 to 2.1
+## 2.1 to 2.2
 
 In a Rails environment with ActiveModel/ActiveRecord, you have to include the [reform-rails](https://github.com/trailblazer/reform-rails) gem.
 

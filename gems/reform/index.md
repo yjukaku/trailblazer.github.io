@@ -241,6 +241,10 @@ To use dry-validation (recommended).
 
 Put this in an initializer or on top of your script.
 
+## Rails Support
+
+Use [Reform-rails](https://github.com/trailblazer/reform-rails) to automatically load and include Reform features for a standard Rails stack, e.g. `ActiveModel::Validations`.
+
 
 ## Compositions
 
