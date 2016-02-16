@@ -182,7 +182,7 @@ Naturally, a `:populator` for a single property is only called once.
     class AlbumForm < Reform::Form
       property :composer,
         populator: -> (model:, **) do
-          model || self.composer= Artist.new }
+          model || self.composer= Artist.new
         end
 
 A single populator works identical to a collection one, except for the `model` argument, which is equally to `self.composer`.
