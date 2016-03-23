@@ -104,7 +104,7 @@ Note that you can also pass your own options to the rendering.
 
 To learn how Representable processes options, read [the docs](/gems/representable/3.0/api.html#user-options).
 
-## Different Representers
+## Input and Output Representers
 
 The idea when including `Representer` is that you want the same representer to deserialize input and render the response document.
 
