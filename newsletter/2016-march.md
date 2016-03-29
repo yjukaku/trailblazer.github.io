@@ -17,13 +17,13 @@ Yes, even though I refuse to use higher technology, I love Facebook! Only just n
 
 ## RCAU16
 
-
 <img src="https://scontent-syd1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12931127_1123064391061744_8244347931411963903_n.jpg?oh=27a00170285bf4cb008dd55e431aff7c&oe=57985FBE" width="160">
 
 The main organizer - a man with a vision.
 
-I've had a fantastic time giving a full-day Trailblazer workshop at RubyConf Australia 2016. In a room with 15 highly motivated Rubyists, we managed to implement a shopping cart application. As we all found the [cart example](https://github.com/apotonick/trb-cart) better to show all the goodies in TRB, I am considering using it for the upcoming Trailblazer Primer book.
+I've had a fantastic time giving a full-day Trailblazer workshop at RubyConf Australia 2016. In a room with 15 highly motivated Rubyists, we managed to implement a shopping cart application. As we all found the [cart example](https://github.com/apotonick/trb-cart) a very understandable way to show all the goodies in TRB, I am considering using it for the upcoming Trailblazer Primer book.
 
+The conference itself was amazing and I think everybody really enjoyed the talks, the fantastic Aussie Weather™, the snacks, great food and the afterparties! Much love!
 
 ## Europe Talks
 
@@ -100,7 +100,7 @@ class Create < Trailblazer::Operation
   end
 ```
 
-The `contract` method now memoizes its return value (but only if desired) and provides an easy way for more complex contract setup. Note that you can also override `#contract`. We're hoping this will help developers to leverage the compositional features of Disposable/Reform better.
+The `contract` method now memoizes its return value (but only if desired) and provides an easy way for more complex contract setup. Note that you can also override `#contract!`. We're hoping this will help developers to leverage the compositional features of Disposable/Reform better.
 
 ## Separate Representers For Operation
 
