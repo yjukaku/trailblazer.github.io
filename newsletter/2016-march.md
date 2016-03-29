@@ -17,13 +17,24 @@ Yes, even though I refuse to use higher technology, I love Facebook! Only just n
 
 ## RCAU16
 
+<div style="margin-bottom: 160px;">
+<div style="float:left; width: 200px;">
 <img src="https://scontent-syd1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12931127_1123064391061744_8244347931411963903_n.jpg?oh=27a00170285bf4cb008dd55e431aff7c&oe=57985FBE" width="160">
 
 The main organizer - a man with a vision.
+</div>
 
-I've had a fantastic time giving a full-day Trailblazer workshop at RubyConf Australia 2016. In a room with 15 highly motivated Rubyists, we managed to implement a shopping cart application. As we all found the [cart example](https://github.com/apotonick/trb-cart) a very understandable way to show all the goodies in TRB, I am considering using it for the upcoming Trailblazer Primer book.
+<p>
+I've had a fantastic time giving a full-day Trailblazer workshop at RubyConf Australia 2016. In a room with 15 highly motivated Rubyists, we managed to implement a shopping cart application. As we all found the <a href="https://github.com/apotonick/trb-cart">cart example</a> a very understandable way to show all the goodies in TRB, I am considering using it for the upcoming Trailblazer Primer book.
+</p>
 
+  <p>
 The conference itself was amazing and I think everybody really enjoyed the talks, the fantastic Aussie Weather™, the snacks, great food and the afterparties! Much love!
+</p>
+
+</div>
+
+<div />
 
 ## Europe Talks
 
@@ -32,6 +43,7 @@ On my Europe trip in February, I got invited to a handful of Ruby meetups where 
 A incredibly big *Thank You!* to the organizers of the meetups, I felt very welcome and always enjoyed the delicious beers afterwards!
 
 <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/t31.0-8/12891790_1120902187944631_1061140847022920590_o.jpg" width="600">
+
 
 ## Coercion in Reform with Dry-Types
 
