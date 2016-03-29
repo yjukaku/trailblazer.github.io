@@ -208,6 +208,8 @@ This will result in the following behavior.
 	twin.id = ""
 	twin.id #=> nil
 
+Note that you can use `:nilify` without specifying a `:type`.
+
 ## Defaults
 
 Default values can be set via `:default`.
