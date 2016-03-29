@@ -5,6 +5,19 @@ title: "Reform: API"
 
 # Reform: API
 
+## Disposable API
+
+Every Reform form object inherits from `Disposable::Twin`, making every form a twin and giving each form the entire twin API such as.
+
+* Defaults using `:default`.
+* Coercion using `:type` and `:nilify`.
+* Nesting
+* Composition
+* Hash fields
+
+If you're looking for a specific feature, make sure to check the [Disposable documentation](/gems/disposable/api.html)
+
+
 ## Inheritance
 
 Forms can be derived from other forms and will inherit all properties and validations.
