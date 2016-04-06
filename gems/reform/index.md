@@ -248,7 +248,7 @@ Use [Reform-rails](https://github.com/trailblazer/reform-rails) to automatically
     gem "reform"
     gem "reform-rails"
 
-## Compositions
+## Composition
 
 Reform allows to map multiple models to one form. The [complete documentation](https://github.com/apotonick/disposable#composition) is here, however, this is how it works.
 
