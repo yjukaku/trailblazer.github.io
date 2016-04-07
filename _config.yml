@@ -11,3 +11,5 @@ imageurl: "http://trailblazer.to/images/go-trailblazer.jpg"
 twitter: "@apotonick"
 include:
   - .nojekyll
+gems:
+  - jekyll-redirect-from
