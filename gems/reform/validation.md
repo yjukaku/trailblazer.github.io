@@ -137,7 +137,7 @@ This is not Reform's fault but a design flaw in ActiveRecord's validators.
 You're encouraged to use Reform's non-writing `unique: true` validation, though.
 
 
-    require "reform/form/validation/unique_validator.rb"
+    require "reform/form/validation/unique_validator"
 
     class SongForm < Reform::Form
       property :title
