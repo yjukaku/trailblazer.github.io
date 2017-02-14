@@ -23,11 +23,16 @@
     }
 
   }
-  li.heading {
+  li a.heading {
     font-weight:bold;
   }
   li.divider {
     border-top: 1px solid scale-color($nav-link-color, $lightness: 90%);
+  }
+
+  ul.link-group{
+    list-style-type: none;
+    margin: 0;
   }
 
   .page-toc-heading {

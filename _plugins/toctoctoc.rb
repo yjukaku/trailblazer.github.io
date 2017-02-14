@@ -37,7 +37,16 @@ module Jekyll
       path = page.path.sub("/index.md", "")
       path = path.sub(".md", ".html")
       path = "/#{path}"
-      a = doc.css(".side-nav>li>a[href='#{path}']").first and a[:class] = "active"
+      current_a = doc.css(".side-nav li a[href='#{path}']").first
+      if current_a
+        # Set active class for this <a>, and also its corresponding '.link-group' parent
+        current_a[:class] += " is-active"
+        current_li = current_a.parent
+        nested_ul = current_li.parent
+        if nested_ul[:class] =~ "nested"
+          nested_ul[:class] += " is-active"
+        end
+      end
 
 
 # add magellan target
